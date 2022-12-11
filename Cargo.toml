@@ -1,0 +1,21 @@
+[package]
+name = "hkd-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+# linux apis
+epoll = "4.3.1"
+inotify = "0.10.0"
+input-linux = "0.5.0"
+libc = "0.2.135"
+
+# logging
+log = "0.4.17"
+
+inspector = "0.1.0"
+replace_with = "0.1.7"
+slotmap = "1.0.6"
